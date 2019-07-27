@@ -1,0 +1,5 @@
+name: MirrorShield
+main: me.thenotsure.mirrorshield.Main
+version: 1.0.0
+author: TheNotsure
+api-version: 1.14

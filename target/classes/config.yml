@@ -1,0 +1,50 @@
+DEBUG_MODE: true
+
+PROJECTILE_SPEED_MULTIPLYER: 0.9
+PROJECTILE_INTERPOLATION: 0.75
+
+ATTACKER_SPEED_MULTIPLYER: 1.75
+ATTACKER_INTERPOLATION: 0.25
+
+ENTITY_DETECTION_RADIUS: 1.25
+MINIMUM_REFLECT_SPEED: 0.1
+
+SHIELD_VOLUME: 1.0
+
+SHIELD_PARTICLE_COUNT: 15
+SHIELD_PARTICLE_RADIUS: 0.25
+SHIELD_PARTICLE_SPEED: 0.25
+
+SHIELD_NOISE: BLOCK_GLASS_BREAK
+SHIELD_PARTICLE_TYPE: FIREWORKS_SPARK
+MIRROR_SHIELD_BANNER_BASE: WHITE
+MIRROR_SHIELD_BANNER_LAYOUT:
+- ==: Pattern
+  color: GREEN
+  pattern: gra
+- ==: Pattern
+  color: WHITE
+  pattern: dls
+- ==: Pattern
+  color: LIGHT_GRAY
+  pattern: gra
+- ==: Pattern
+  color: LIGHT_BLUE
+  pattern: gru
+- ==: Pattern
+  color: WHITE
+  pattern: gra
+
+MIRROR_SHIELD_DISPLAY_NAME: "&6Mirror Shield"
+
+UNCHARGED_MIRROR_SHIELD_DISPLAY_NAME: "&rDull Mirror Shield"
+
+MIRROR_SHIELD_LORE:
+- "&r&7This shield's sheen is brighter than the sun;"
+- "&r&7it even has the ability to &6reflect projectiles&7 now!"
+- ""
+- "&r&7...too bad glass is still a fragile material..."
+
+UNCHARGED_MIRROR_SHIELD_LORE:
+- "&r&7Maybe glass wasn't the best material to make a shield out of..."
+- "&r&7Or maybe it just needs a &6jolt of energy&7?"
